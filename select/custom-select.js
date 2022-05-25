@@ -1,39 +1,39 @@
 const style = /*css*/`
-.main {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
+  .main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
 
-.select-base {
-  width: 200px;
-  height: 24px;
-  border: 1px solid;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
+  .select-base {
+    width: 200px;
+    height: 24px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-.select-options {
-  position: absolute;
-  z-index: 9999;
-  background: white;
-  width: 200px
-}
+  .select-options {
+    position: absolute;
+    z-index: 9999;
+    background: white;
+    width: 200px
+  }
 
-.select-options-search {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
+  .select-options-search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-.select-options-search input {
-  width: 100%;
-}
+  .select-options-search input {
+    width: 100%;
+  }
 `;
 
 const CustomSelect = {
